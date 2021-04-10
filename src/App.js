@@ -60,10 +60,10 @@ class App extends Component {
           question:
             'Person p;\nint s[10];\nbool isSmart;\n what will the following declation look in your favourite language Java & Python',
           option: [
-            'Java\nPerson p = new Person;\nint s[] = new int[10];\nboolean isSmart;\nPython\np = Person()\ns=[]\nisSmart=true',
-            'Java\nPerson p = new Person();\nint[] s = new int();\nboolean isSmart;\nPython\np = new Person()\ns=[]\nisSmart=true',
-            'Java\nPerson p = new Person();\nint[] s = new int[10];\nboolean isSmart;\nPython\np = Person()\ns=[]\nisSmart=True',
-            'Java\nPerson p = Person();\nint[] s = new int[];\nboolean isSmart;\nPython\np = Person\ns=[]\nisSmart=True',
+            'Java\n:  Person p = new Person;\nint s[] = new int[10];\nboolean isSmart;\nPython\n :  p = Person()\ns=[]\nisSmart=true',
+            'Java\n :  Person p = new Person();\nint[] s = new int();\nboolean isSmart;\nPython\n :  p = new Person()\ns=[]\nisSmart=true',
+            'Java\n :  Person p = new Person();\nint[] s = new int[10];\nboolean isSmart;\nPython\n :  p = Person()\ns=[]\nisSmart=True',
+            'Java\n :  Person p = Person();\nint[] s = new int[];\nboolean isSmart;\nPython\n :  p = Person\ns=[]\nisSmart=True',
           ],
           answer: 3,
         },
