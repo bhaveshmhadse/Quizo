@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Quizo/static/css/main.c54c51d6.chunk.css",
-    "main.js": "/Quizo/static/js/main.015544b1.chunk.js",
-    "main.js.map": "/Quizo/static/js/main.015544b1.chunk.js.map",
+    "main.css": "/Quizo/static/css/main.181fe6e7.chunk.css",
+    "main.js": "/Quizo/static/js/main.62c6b575.chunk.js",
+    "main.js.map": "/Quizo/static/js/main.62c6b575.chunk.js.map",
     "runtime-main.js": "/Quizo/static/js/runtime-main.daabed0e.js",
     "runtime-main.js.map": "/Quizo/static/js/runtime-main.daabed0e.js.map",
     "static/js/2.cf10ebde.chunk.js": "/Quizo/static/js/2.cf10ebde.chunk.js",
     "static/js/2.cf10ebde.chunk.js.map": "/Quizo/static/js/2.cf10ebde.chunk.js.map",
     "index.html": "/Quizo/index.html",
-    "static/css/main.c54c51d6.chunk.css.map": "/Quizo/static/css/main.c54c51d6.chunk.css.map",
+    "static/css/main.181fe6e7.chunk.css.map": "/Quizo/static/css/main.181fe6e7.chunk.css.map",
     "static/js/2.cf10ebde.chunk.js.LICENSE.txt": "/Quizo/static/js/2.cf10ebde.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.daabed0e.js",
     "static/js/2.cf10ebde.chunk.js",
-    "static/css/main.c54c51d6.chunk.css",
-    "static/js/main.015544b1.chunk.js"
+    "static/css/main.181fe6e7.chunk.css",
+    "static/js/main.62c6b575.chunk.js"
   ]
 }
