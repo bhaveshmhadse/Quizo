@@ -1,0 +1,124 @@
+* {
+  outline: none;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(4, 35, 63);
+}
+
+.question {
+  margin: 3rem 1vw 1.4rem 1vw;
+  /* position: relative; */
+  background-color: transparent;
+  color: white;
+  outline: aqua;
+  border-color: aqua;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  filter: drop-shadow(0rem 0.6rem 0.1rem black);
+  font-size: 2rem;
+  width: auto;
+  height: auto;
+  padding: 2rem;
+  float: center;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 2rem;
+}
+
+.options .option {
+  background-color: rgb(4, 35, 63);
+  color: white;
+  font-size: 1.2rem;
+  width: 40vw;
+  height: auto;
+  border-color: rgb(159, 184, 184);
+  border-radius: 0.8rem;
+  border-style: solid;
+  border-width: 1px;
+  /* margin: 1rem; */
+  margin-left: 2rem;
+  padding: 1.2rem;
+}
+
+.options .next {
+  background-color: green;
+  color: white;
+  font-size: 1rem;
+  width: 20vw;
+  height: auto;
+  border-radius: 0.8rem;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 1rem;
+  padding: 0rem;
+  margin-left: auto;
+  filter: drop-shadow(0rem 0.3rem 0.1rem black);
+}
+.options .next:hover {
+  filter: drop-shadow(0rem 0.1rem 0.1rem black);
+  transition: all ease-in-out 500ms;
+}
+
+.none {
+  display: none;
+}
+
+.g {
+  background-color: rgb(56, 220, 56);
+  color: white;
+  font-size: 1.2rem;
+  width: 40vw;
+  height: auto;
+  border-color: rgb(159, 184, 184);
+  border-radius: 0.8rem;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1.2rem;
+}
+
+.options .score {
+  background-color: transparent;
+  color: white;
+  font-size: .6rem;
+  width: auto;
+  height: auto;
+  border-radius: 0.8rem;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.5rem;
+  margin-right: auto;
+  border-color: orange;
+  padding: 1rem;
+  float: left;
+  margin-left: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width:1000px){
+    .options .next {
+        background-color: green;
+        color: white;
+        font-size: 1rem;
+        width: 20vw;
+        height: 10vw;
+        border-radius: 0.8rem;
+        border-style: solid;
+        border-width: 1px;
+        margin-right: 1rem;
+        padding: 0rem;
+        margin-left: auto;
+        filter: drop-shadow(0rem 0.3rem 0.1rem black);
+      }
+}
